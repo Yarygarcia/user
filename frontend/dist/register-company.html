@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registro de Empresa en integralmente</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Admin template that can be used to build dashboards for CRM, CMS, etc." />
+    <meta name="author" content="Potenza Global Solutions" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- app favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <!-- plugin stylesheets -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors.css" />
+    <!-- app style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body class="bg-white">
+    <!-- begin app -->
+    <div class="app">
+        <!-- begin app-wrap -->
+        <div class="app-wrap">
+            <!-- begin pre-loader -->
+            <div class="loader">
+                <div class="h-100 d-flex justify-content-center">
+                    <div class="align-self-center">
+                        <img src="assets/img/loader/loader.svg" alt="loader">
+                    </div>
+                </div>
+            </div>
+            <!-- end pre-loader -->
+
+            <!--start login contant-->
+            <div class="app-contant">
+                <div class="bg-white">
+                    <div class="container-fluid p-0">
+                        <div class="row no-gutters">
+                            <div class="col-sm-6 col-lg-5 col-xxl-3  align-self-center order-2 order-sm-1">
+                                <div class="d-flex align-items-center h-100-vh">
+                                    <div class="register p-5">
+                                        <h1 class="mb-2">integralmente consultoria</h1>
+                                        <p>Bienvenido, registrate con nosotros</p>
+                                        <form action="auth-register.html" class="mt-2 mt-sm-5">
+                                            <!-- begin row -->
+                                            <div class="row">
+                                                <div class="col-12 col-lg-12">
+                                                    <div class="card card-statistics">
+                                                        <div class="card-header">
+                                                            <div class="card-heading">
+                                                                <h4 class="card-title">Formulario Compañia</h4>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <div class="accordion" id="accordionsimplefill">
+
+                                                                <div class="mb-2 acd-group">
+                                                                    <div class="card-header rounded-0 bg-primary">
+                                                                        <h5 class="mb-0">
+                                                                            <a href="#collapse"
+                                                                                class="btn-block text-white text-left acd-heading collapsed"
+                                                                                data-toggle="collapse">Datos de usuario</a>
+                                                                        </h5>
+                                                                    </div>
+                                                                    <div id="collapse" class="collapse"
+                                                                        data-parent="#accordionsimplefill">
+
+                                                                        <!--Formulario datos usuario-->
+                                                                        <br />
+                                                                        <div class="col-12-mt-1">
+                                                                            <div class="card card-statistics">
+                                                                                <div class="card-body">
+                                                                                    <form>
+                                                                                        <div class="form-row">
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputGroupSelect01">Tipo
+                                                                                                    de documento</label>
+                                                                                                <select id="TIU"
+                                                                                                    class="form-control">
+                                                                                                    <option selected>
+                                                                                                        Cédula de
+                                                                                                        ciudadanía
+                                                                                                    </option>
+                                                                                                    <option>Pasaporte
+                                                                                                    </option>
+                                                                                                    <option>Tarjeta de identidad
+                                                                                                    </option>
+                                                                                                    <option>Tarjeta de extranjeria
+                                                                                                    </option>
+                                                                                                </select>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputPassword4">Número
+                                                                                                    de documento</label>
+                                                                                                <input type="number"
+                                                                                                    class="form-control"
+                                                                                                    id="NDU"
+                                                                                                    placeholder="Número de documento">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="form-row">
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="input">Nombres</label>
+                                                                                                <input type="text"
+                                                                                                    class="form-control"
+                                                                                                    id="NombreU">
+                                                                                                                                                                                                       >
+                                                                                            </div>
+
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputZip">Apellidos</label>
+                                                                                                <input type="text"
+                                                                                                    class="form-control"
+                                                                                                    id="apellidoU">
+                                                                                                    
+                                                                                            </div>
+                                                                                        </div>
+                                                                               
+                                                                                        <div class="form-row">
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputCity">Nombre de usuario</label>
+                                                                                                <input type="text"
+                                                                                                    class="form-control"
+                                                                                                    id="UN">
+                                                                                                    
+                                                                                            </div>
+
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputZip">Contraseña</label>
+                                                                                                <input type="password"
+                                                                                                    class="form-control"
+                                                                                                    id="password"
+                                                                                                    >
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="form-group">
+                                                                                            <div class="form-group">
+                                                                                                <label class="control-label">Email</label>
+                                                                                                <input type="email" class="form-control" placeholder="Email" />
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        
+                                                                                        <button type="submit"
+                                                                                            class="btn btn-primary">Guardar Datos</button>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- Fin formulario datos usuario -->
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="mb-2 acd-group">
+                                                                    <div class="card-header bg-primary rounded-0">
+                                                                        <h5 class="mb-0">
+                                                                            <a href="#collapse2"
+                                                                                class="btn-block text-white text-left acd-heading"
+                                                                                data-toggle="collapse">Datos de la
+                                                                                compañia</a>
+                                                                        </h5>
+                                                                    </div>
+                                                                    <div id="collapse2" class="collapse"
+                                                                        data-parent="#accordionsimplefill">
+                                                                        <!--Formulario datos de la compañia-->
+                                                                        <br />
+                                                                        <div class="col-12-mt-1">
+                                                                            <div class="card card-statistics">
+                                                                                <div class="card-body">
+                                                                                    <form>
+                                                                                        <div class="form-row">
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputState">Tipo
+                                                                                                    de documento</label>
+                                                                                                <select id="inputState"
+                                                                                                    class="form-control">
+                                                                                                    <option selected>Cedula de ciudadania
+                                                                                                    </option>
+                                                                                                    <option> tarjeta de identidad
+                                                                                                    </option>
+                                                                                                    <option>Tarjeta de extranjeria
+                                                                                                    </option>
+                                                                                                    <option>Pasaporte                                                                                                        
+                                                                                                    </option>
+                                                                                                    
+                                                                                                </select>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputPassword4">Número
+                                                                                                    de documento</label>
+                                                                                                <input type="number"
+                                                                                                    class="form-control"
+                                                                                                    id="inputPassword4"
+                                                                                                    placeholder="Número de documento">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="form-group">
+                                                                                            <label
+                                                                                                for="inputAddress">Nombre/Razón
+                                                                                                social</label>
+                                                                                            <input type="text"
+                                                                                                class="form-control"
+                                                                                                id="NombreEmpre"
+                                                                                                placeholder="Nombre de la empresa o razón">
+                                                                                        </div>
+                                                                                        <div class="form-group">
+                                                                                            <label
+                                                                                                for="inputAddress2">Dirrección</label>
+                                                                                            <input type="text"
+                                                                                                class="form-control"
+                                                                                                id="Dirrecciónempre"
+                                                                                                placeholder="Dirección de la empresa">
+                                                                                        </div>
+                                                                                        <div class="form-row">
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputCity">Télefono</label>
+                                                                                                <input type="number"
+                                                                                                    class="form-control"
+                                                                                                    id="TELCOM"
+                                                                                                    placeholder="Telefono de contacto">
+                                                                                            </div>
+
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputZip">Correo
+                                                                                                    de
+                                                                                                    facturación</label>
+                                                                                                <input type="email"
+                                                                                                    class="form-control"
+                                                                                                    id="Correofactu"
+                                                                                                    placeholder="Correo">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="form-row">
+                                                                                            <div
+                                                                                                class="form-group col-md-4">
+                                                                                                <label
+                                                                                                    for="inputState">País</label>
+                                                                                                <select id="inputState"
+                                                                                                    class="form-control">
+                                                                                                    <option selected>
+                                                                                                        Colombia
+                                                                                                    </option>
+                                                                                                    <option>Estados unidos
+                                                                                                    </option>
+                                                                                                    <option>Canada
+                                                                                                    </option>
+                                                                                                    <option>Australia
+                                                                                                    </option>
+                                                                                                </select>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="form-group col-md-4">
+                                                                                                <label
+                                                                                                    for="inputState">Departamento</label>
+                                                                                                <select id="inputState"
+                                                                                                    class="form-control">
+                                                                                                    <option selected>
+                                                                                                        Antioquia
+                                                                                                    </option>
+                                                                                                    <option>Cundinamarca
+                                                                                                    </option>
+                                                                                                    <option>Huila
+                                                                                                    </option>
+                                                                                                </select>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="form-group col-md-4">
+                                                                                                <label
+                                                                                                    for="inputState">Ciudad</label>
+                                                                                                <select id="inputState"
+                                                                                                    class="form-control">
+                                                                                                    <option selected>
+                                                                                                        Medellín
+                                                                                                    </option>
+                                                                                                    <option>Bogota
+                                                                                                    </option>
+                                                                                                    <option>Cali
+                                                                                                    </option>
+                                                                                                </select>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <br />
+                                                                                        <button type="submit"
+                                                                                            class="btn btn-primary">Guardar datos</button>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <!-- Fin fromulario datos compañia -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mb-2 acd-group">
+                                                                    <div class="card-header rounded-0 bg-primary">
+                                                                        <h5 class="mb-0">
+                                                                            <a href="#collapse3"
+                                                                                class="btn-block text-white text-left acd-heading collapsed"
+                                                                                data-toggle="collapse">Datos del
+                                                                                representante legal</a>
+                                                                        </h5>
+                                                                    </div>
+                                                                    <div id="collapse3" class="collapse"
+                                                                        data-parent="#accordionsimplefill">
+
+                                                                        <!--Formulario del representante legal-->
+                                                                        <br />
+                                                                        <div class="col-12-mt-1">
+                                                                            <div class="card card-statistics">
+                                                                                <div class="card-body">
+                                                                                    <form>
+                                                                                        <div class="form-row">
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputState">Tipo
+                                                                                                    de documento</label>
+                                                                                                <select id="inputState"
+                                                                                                    class="form-control">
+                                                                                                    <option selected>
+                                                                                                        Cédula de
+                                                                                                        ciudadanía
+                                                                                                    </option>
+                                                                                                    <option>Pasaporte
+                                                                                                    </option>
+                                                                                                    <option>Tarjeta de identidad
+                                                                                                    </option>
+                                                                                                    <option>Tarjeta de extranjeria
+                                                                                                    </option>
+                                                                                                </select>
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputPassword4">Número
+                                                                                                    de documento</label>
+                                                                                                <input type="number"
+                                                                                                    class="form-control"
+                                                                                                    id="NDRL"
+                                                                                                    placeholder="Número de documento">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="form-row">
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputCity">Nombres</label>
+                                                                                                <input type="text"
+                                                                                                    class="form-control"
+                                                                                                    id="NRL"
+                                                                                                    >
+                                                                                            </div>
+
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputZip">Apellidos</label>
+                                                                                                <input type="text"
+                                                                                                    class="form-control"
+                                                                                                    id="APRL"
+                                                                                                    >
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                        <div class="form-row">
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputAddress">Dirección</label>
+                                                                                                <input type="text"
+                                                                                                    class="form-control"
+                                                                                                    id="DirecciónRL"
+                                                                                                    placeholder="Dirr. Representante">
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="form-group col-md-6">
+                                                                                                <label
+                                                                                                    for="inputCity">Télefono</label>
+                                                                                                <input type="number"
+                                                                                                    class="form-control"
+                                                                                                    id="TelRL"
+                                                                                                    placeholder="Tel. representante">
+                                                                                            </div>
+                                                                                            
+                                                                                        </div>
+                                                                                        <div
+                                                                                                class="form-group">
+                                                                                                <label
+                                                                                                    for="inputZip">Correo</label>
+                                                                                                <input type="email"
+                                                                                                    class="form-control"
+                                                                                                    id="CORL"
+                                                                                                    placeholder="Correo del representante">
+                                                                                        </div>
+                                                                                        <button type="submit"
+                                                                                            class="btn btn-primary">Guardar Datos</button>
+                                                                                    </form>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- Fin formulario Datos representante legal -->
+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="acd-group border-bottom-0">
+                                                                    <div class="card-header rounded-0 bg-primary">
+                                                                        <h5 class="mb-0">
+                                                                            <a href="#collapse4"
+                                                                                class="btn-block text-white text-left acd-heading collapsed"
+                                                                                data-toggle="collapse">Carga de
+                                                                                archivos</a>
+                                                                        </h5>
+                                                                    </div>
+                                                                    <div id="collapse4" class="collapse"
+                                                                        data-parent="#accordionsimplefill">
+
+                                                                        <!--Formulario de la carga de archivos-->
+                                                                        <br />
+                                                                        <div class="col-12-mt-1">
+                                                                            <div class="card card-statistics">
+                                                                                <div class="card-header">
+                                                                                    <div class="card-heading">
+                                                                                        <h4 class="card-title">Rut</h4>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="card-body">
+                                                                                    <input type="file"
+                                                                                        class="form-control-file"
+                                                                                        id="exampleFormControlFile1">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-12">
+                                                                            <div class="card card-statistics">
+                                                                                <div class="card-header">
+                                                                                    <div class="card-heading">
+                                                                                        <h4 class="card-title">Cámara de
+                                                                                            comercio</h4>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="card-body">
+                                                                                    <input type="file"
+                                                                                        class="form-control-file"
+                                                                                        id="exampleFormControlFile1">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-md-12">
+                                                                            <div class="card card-statistics">
+                                                                                <div class="card-header">
+                                                                                    <div class="card-heading">
+                                                                                        <h4 class="card-title">Cédula
+                                                                                            del representante legal</h4>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="card-body">
+                                                                                    <input type="file"
+                                                                                        class="form-control-file"
+                                                                                        id="exampleFormControlFile1">
+                                                                                </div>
+                                                                                <br>
+                                                                                <button type="submit"
+                                                                                    class="btn btn-primary">Guardar Datos</button>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- Fin de formulario -->
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end row -->
+
+                                            <div class="col-12 mt-3">
+                                                <a href="auth-login.html"
+                                                    class="btn btn-primary text-uppercase">Registrarme</a>
+                                            </div>
+                                            
+                                            <div class="col-12  mt-3">
+                                                <p>¿ya tenias una cuenta?<a href="auth-login.html"> Iniciar
+                                                        sesion</a></p>
+                                                <br>
+                                                <p> No tienes una cuenta aún?</p><a href="register.html"> Registrarse como usuario</a></p>
+                                            </div>
+                                            
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-xxl-9 col-lg-7 bg-gradient o-hidden order-1 order-sm-2">
+        <div class="row align-items-end h-100">
+                
+            <div class="col-7 mx-auto ">
+                
+            </div>
+        </div>
+        <!-- end app-wrap -->
+    </div>
+    <!-- end app -->
+
+
+
+    <!-- plugins -->
+    <script src="assets/js/vendors.js"></script>
+
+    <!-- custom app -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
